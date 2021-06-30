@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    {% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RENW77DV0D"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-RENW77DV0D');
+    </script>
+  </head>
+  <body>
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+      <footer class="site-footer">
+        <strong><a href="/">《技术月刊》</a></strong>汇总平时阅读的优秀文章。
+      </footer>
+    </main>
+  </body>
+</html>
