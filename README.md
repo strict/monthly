@@ -1,5 +1,6 @@
 # 技术月刊
 
+* [2021.07 - Making JavaScript run fast on WebAssembly](./2021/07.md)
 * [2021.06 - Sparkplug — a non-optimizing JavaScript compiler](./2021/06.md)
 * [2020.12 - Why Figma Wins](./2020/12.md)
 * [2020.11 - 10X Your Career: First Principles For Outsized Success](./2020/11.md)
